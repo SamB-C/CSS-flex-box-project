@@ -109,8 +109,34 @@ a {
     margin-top: 10px;
 }
 
+
+/* Locations */
 #locations {
     background-image: url("img/img-locations-background.jpg");
     height: 500px;
     width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#locations h2 {
+    margin-top: 90px;
+}
+
+#location-cards {
+    display: flex;
+    width: 980px;
+    justify-content: space-between;
+}
+
+.location-card {
+    opacity: 1;
+    width: 300px;
+    background-color: black;
+}
+
+.location-card p {
+    margin: 35px 0;
 }
