@@ -17,6 +17,9 @@ body {
 
 main {
     max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* NAV BAR */
@@ -84,6 +87,7 @@ a {
 
 #featured-tea {
     margin-top: 100px;
+    max-width: 1000px;
 }
 
 #food-cards {
