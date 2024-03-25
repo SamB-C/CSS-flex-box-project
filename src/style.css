@@ -3,7 +3,7 @@ html {
     font-size: 22px;
     color: seashell;
     background-color: black;
-    opacity: 0.93;
+    opacity: 0.95;
     text-align: center;
 }
 
@@ -144,4 +144,12 @@ a {
 /* CONTACT */
 #contact {
     height: 200px;
+}
+
+
+/* COPYRIGHT */
+#copyright {
+    width: 100%;
+    text-align: left;
+    margin-left: 20px;
 }
