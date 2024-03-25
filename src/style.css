@@ -93,11 +93,16 @@ a {
 #food-cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.food-card {
-    margin: 10px;
+.center-food-card {
+    margin: 0 50px;
+}
+
+#food-cards #spacer {
+    width: 50px;
+    height: 200px;
 }
 
 .food-card img {
