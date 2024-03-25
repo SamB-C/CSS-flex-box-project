@@ -4,4 +4,19 @@ html {
     color: seashell;
     background-color: black;
     opacity: 0.9;
+#mission {
+    background-image: url("img//img-mission-background.jpg");
+    width: 1200px;
+    height: 700px;
+}
+
+.food-card img {
+    width: 300px;
+    height: 200px;
+}
+
+#locations {
+    background-image: url("img/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
 }
