@@ -15,6 +15,9 @@ body {
     flex-wrap: wrap;
 }
 
+main {
+    max-width: 1200px;
+}
 
 /* NAV BAR */
 nav {
@@ -76,9 +79,30 @@ a {
     margin-bottom: 0;
 }
 
+
+/* FOOD CARDS */
+
+#featured-tea {
+    margin-top: 100px;
+}
+
+#food-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.food-card {
+    margin: 10px;
+}
+
 .food-card img {
     width: 300px;
     height: 200px;
+}
+
+.food-card h4 {
+    margin-top: 10px;
 }
 
 #locations {
