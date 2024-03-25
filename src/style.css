@@ -140,3 +140,8 @@ a {
 .location-card p {
     margin: 35px 0;
 }
+
+/* CONTACT */
+#contact {
+    height: 200px;
+}
